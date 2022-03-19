@@ -1,9 +1,24 @@
+import { Container } from 'react-bootstrap'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import * as screen from './screens'
 
-function App() {
+function App () {
   return (
-    <>
-      <h1>Mojo ProShop</h1>
-    </>
+    <Router>
+      <Header />
+      <main className='py-3'>
+        <Container>
+          <Routes>
+            <Route path='/' element={<screen.HomeScreen />} />
+            <Route path='/product/:id' element={<screen.ProductScreen />} />
+            <Route path='*' element={<screen.NotFound />} />
+          </Routes>
+        </Container>
+      </main>
+      <Footer />
+    </Router>
   )
 }
 
