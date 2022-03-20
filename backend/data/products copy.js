@@ -1,5 +1,6 @@
 const products = [
   {
+    _id: '1',
     name: 'Airpods Wireless Bluetooth Headphones',
     image: '/images/airpods.jpg',
     description:
@@ -9,9 +10,10 @@ const products = [
     price: 89.99,
     countInStock: 10,
     rating: 4.5,
-    numReviews: 12
+    numReviews: 12,
   },
   {
+    _id: '2',
     name: 'iPhone 11 Pro 256GB Memory',
     image: '/images/phone.jpg',
     description:
@@ -21,9 +23,10 @@ const products = [
     price: 599.99,
     countInStock: 7,
     rating: 4.0,
-    numReviews: 8
+    numReviews: 8,
   },
   {
+    _id: '3',
     name: 'Cannon EOS 80D DSLR Camera',
     image: '/images/camera.jpg',
     description:
@@ -33,9 +36,10 @@ const products = [
     price: 929.99,
     countInStock: 5,
     rating: 3,
-    numReviews: 12
+    numReviews: 12,
   },
   {
+    _id: '4',
     name: 'Sony Playstation 4 Pro White Version',
     image: '/images/playstation.jpg',
     description:
@@ -45,9 +49,10 @@ const products = [
     price: 399.99,
     countInStock: 11,
     rating: 5,
-    numReviews: 12
+    numReviews: 12,
   },
   {
+    _id: '5',
     name: 'Logitech G-Series Gaming Mouse',
     image: '/images/mouse.jpg',
     description:
@@ -57,9 +62,10 @@ const products = [
     price: 49.99,
     countInStock: 7,
     rating: 3.5,
-    numReviews: 10
+    numReviews: 10,
   },
   {
+    _id: '6',
     name: 'Amazon Echo Dot 3rd Generation',
     image: '/images/alexa.jpg',
     description:
@@ -69,7 +75,46 @@ const products = [
     price: 29.99,
     countInStock: 0,
     rating: 4,
-    numReviews: 12
+    numReviews: 12,
+  },
+  {
+    _id: '7',
+    name: 'Jeans',
+    image: '/images/jeans.jpg',
+    description:
+      'Tight jeans that leave nothing to the imagination, if you know what I mean',
+    brand: 'Mojo',
+    category: 'Clothing',
+    price: 59.99,
+    countInStock: 29,
+    rating: 4.9,
+    numReviews: 7,
+  },
+  {
+    _id: '8',
+    name: 'Purple Top',
+    image: '/images/purple-top.jpg',
+    description:
+      'Nice knockers, huh?',
+    brand: 'Mojo',
+    category: 'Clothing',
+    price: 19.99,
+    countInStock: 4,
+    rating: 4.6,
+    numReviews: 200
+  },
+  {
+    _id: '9',
+    name: 'Pink Panties',
+    image: '/images/pink-panties.jpg',
+    description:
+      'Wow! They\'re so big and soft and round. Nice nips too.',
+    brand: 'Mojo',
+    category: 'Clothing',
+    price: 9.99,
+    countInStock: 35,
+    rating: 4.3,
+    numReviews: 35
   }
 ]
 
