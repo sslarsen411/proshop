@@ -12,7 +12,7 @@ function App () {
         <Container>
           <Routes>
             <Route path='/' element={<screen.HomeScreen />} />
-            <Route path='/product/:id' element={<screen.ProductScreen />} />
+            <Route path='/products/:id' element={<screen.ProductScreen />} />
             <Route path='*' element={<screen.NotFound />} />
           </Routes>
         </Container>
