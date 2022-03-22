@@ -13,6 +13,10 @@ function App () {
           <Routes>
             <Route path='/' element={<screen.HomeScreen />} />
             <Route path='/products/:id' element={<screen.ProductScreen />} />
+            <Route path='/cart'>
+              <Route path=':id' element={<screen.CartScreen />} />
+              <Route path='' element={<screen.CartScreen />} />
+            </Route>
             <Route path='*' element={<screen.NotFound />} />
           </Routes>
         </Container>
